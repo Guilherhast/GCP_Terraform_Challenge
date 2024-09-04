@@ -10,3 +10,15 @@ variable "zone" {
   description = "Zone of the project"
   default     = ""
 }
+variable "bucket" {
+  description = "Zone of the project"
+  default     = "" # uuidgen | tr -d '-'
+}
+variable "vpc_name" {
+  description = "Zone of the project"
+  default     = "" # uuidgen | tr -d '-'
+}
+variable "subnet_region" {
+  description = "Zone of the project"
+  default     = "" # uuidgen | tr -d '-'
+}

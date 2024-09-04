@@ -57,16 +57,16 @@
 #TASK6     subnetwork = "subnetname"
 #TASK6   }
 #TASK6 }
-resource "google_compute_firewall" "default" {
-  name    = "tf-firewall"
-  network = var.vpc_name
-  #network = google_compute_network.default.name
-  source_range = 0.0.0.0/0
-
-  allow {
-    protocol = "tcp"
-    ports    = ["80"]
-  }
-
-  source_tags = ["web"]
-}
+#TASK7 resource "google_compute_firewall" "default" {
+#TASK7   name    = "tf-firewall"
+#TASK7   network = var.vpc_name
+#TASK7   #network = google_compute_network.default.name
+#TASK7   source_range = 0.0.0.0/0
+#TASK7 
+#TASK7   allow {
+#TASK7     protocol = "tcp"
+#TASK7     ports    = ["80"]
+#TASK7   }
+#TASK7 
+#TASK7   source_tags = ["web"]
+#TASK7 }
