@@ -1,0 +1,10 @@
+cpu_platform
+current_status
+effective_labels
+id
+instance_id
+label_fingerprint
+metadata_fingerprint
+self_link
+tags_fingerprint
+terraform_labels
